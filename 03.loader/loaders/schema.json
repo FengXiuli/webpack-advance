@@ -1,0 +1,10 @@
+{
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "名称～"
+		}
+	},
+	"additionalProperties": false // 如果设置为true表示除了校验前面写的string类型还可以  接着  校验其余类型，如果为false表示校验了string类型之后不可以再校验其余类型
+}
